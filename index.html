@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="calc">
+        <h1>Calculator</h1>
+        <table border="1px">
+        <tr>
+            <td colspan="4" id="scr">
+                <h3 id="out"></h3>
+            </td>
+        </tr>
+        <tr>
+            <td><button onclick="fun('1')">1</button></td>
+            <td><button onclick="fun('2')">2</button></td>
+            <td><button onclick="fun('3')">3</button></td>
+            <td><button onclick="fun('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="fun('4')">4</button></td>
+            <td><button onclick="fun('5')">5</button></td>
+            <td><button onclick="fun('6')">6</button></td>
+            <td><button onclick="fun('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="fun('7')">7</button></td>
+            <td><button onclick="fun('8')">8</button></td>
+            <td><button onclick="fun('9')">9</button></td>
+            <td><button onclick="fun('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="fun('ac')" id="ac">Ac</button></td>
+            <td><button onclick="del()" id="back">del</button></td>
+            <td><button onclick="res()" id="enter">=</button></td>
+            <td><button onclick="fun('/')">/</button></td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
