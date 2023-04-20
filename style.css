@@ -19,13 +19,13 @@ td{
     width: 100px;
     height: 60px;
 }
-button{
+input{
     width: 100px;
     height: 60px;
     border: none;
     background-color: lavender;
 }
-button:hover{
+input:hover{
     background-color: rgb(201, 201, 255);
 }
 #scr{
